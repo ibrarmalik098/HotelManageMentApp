@@ -1,0 +1,1122 @@
+ * {
+   padding: 0;
+   margin: 0;
+   /* overflow-x: hidden; */
+   /* overflow-y: hidden; */
+   /* height: 100%; */
+   /* width: 100%; */
+ }
+
+
+
+
+
+ /* ================ SignUP Form Style ================  */
+ .Naver_hover:hover {
+   text-decoration: underline;
+ }
+
+ .MAin {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height: 80vh;
+ }
+
+ .shawdow {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   height: 50vh;
+   width: 40vh;
+   padding: 20px;
+
+ }
+
+ /* ================ SignUP Form Style ================  */
+
+ /* SignUP Form Style  */
+
+ /* ================================================ Hotel Management App Start ================================================    */
+
+ /*   Hotel Management App bar Section   */
+
+
+ .navbar_heading {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700px;
+ }
+
+ .Nav_btn {
+   font-size: 0.9em;
+   width: 70px;
+   height: 30px;
+   border: none;
+   outline: none;
+   background-color: #fff;
+   border-radius: 20px;
+   color: rgb(164, 10, 10);
+ }
+
+ .Nav_btn:hover {
+   font-size: 1em;
+   width: 120px;
+   height: 30px;
+   border: 1px solid rgb(164, 10, 10);
+   background-color: #fff;
+   border-radius: 20px;
+   color: rgb(164, 10, 10);
+ }
+
+ .App_bar {
+   color: transparent;
+   position: "fixed"
+ }
+
+ /*   Hotel Management App bar Section   */
+ /*   Hotel Management Backgroung Image Section   */
+
+ .bodyall {
+   background: url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWx8ZW58MHx8MHx8&w=1000&q=80') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+
+ .image {
+   width: 100%;
+   height: 100%;
+ }
+
+ /*   Hotel Management Backgroung Image Section   */
+
+ /* =========  Hotel Management Card Section =========  */
+
+ .Card_section {
+   /* display: flex; */
+   padding: 20px;
+   margin-top: 10px;
+
+ }
+
+ .Card_WHite_Border {
+   background-color: white;
+   display: flex;
+ }
+
+ .Card_Box_shadow {
+   cursor: pointer;
+   margin-left: 15px;
+ }
+
+ .Card_Flex {
+   display: flex;
+   gap: 20;
+   padding-top: 10px;
+ }
+
+ .Card_View_Hotel {
+   display: flex;
+   justify-content: center;
+   margin-top: 12px;
+   font-weight: 700;
+   align-items: center;
+   font-size: 2.5em;
+   background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+ }
+
+ .ul_li {
+   color: #4d4d4d;
+   font-weight: 600px;
+   display: flex;
+   flex-direction: column;
+   list-style-type: circle;
+
+
+ }
+
+ /* =========  Hotel Management Card Section =========  */
+ /* =========  Hotel Management Head Section =========  */
+
+ .head_section {
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ .head_section3 {
+   color: rgb(0, 0, 0);
+   display: flex;
+   background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+   justify-content: center;
+   align-items: center;
+
+
+ }
+
+ .Head_Heading {
+   height: 80vh;
+ }
+
+ .Head_Arcoda {
+   font-weight: 700;
+   text-align: center;
+   background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+   background-size: 200% auto;
+
+   color: #000;
+   background-clip: text;
+   /* text-fill-color: transparent; */
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+   animation: shine 1s linear infinite;
+
+   @keyframes shine {
+     to {
+       background-position: 200% center;
+     }
+   }
+ }
+
+ /* =========  Hotel Management Head Section =========  */
+
+ .carouselwidth {
+   width: 100%;
+   height: 50vh;
+
+ }
+
+ /* Hotel Management Booking form  */
+ .booking_form {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 800;
+   font-size: 2em;
+   background: linear-gradient(to right, #FFF 7%, #FF0 30%, #FF0 40%, #FFF 60%);
+   background-size: 160% auto;
+   align-items: center;
+
+
+ }
+
+
+
+ /* Hotel Management Booking form  */
+ /* Hotel Management Form */
+
+
+ .Form_Btn {
+   font-size: 16px;
+   font-weight: 200;
+   letter-spacing: 1px;
+   padding: 13px 20px 13px;
+   outline: 0;
+   border: 1px solid black;
+   cursor: pointer;
+   position: relative;
+   background-color: rgba(0, 0, 0, 0);
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+
+ .Form_Btn:after {
+   content: "";
+   background-color: #ffe54c;
+   width: 100%;
+   z-index: -1;
+   position: absolute;
+   height: 100%;
+   top: 7px;
+   left: 7px;
+   transition: 0.2s;
+ }
+
+ .Form_Btn:hover:after {
+   top: 0px;
+   left: 0px;
+ }
+
+ @media (min-width: 768px) {
+   .Form_Btn {
+     padding: 13px 50px 13px;
+   }
+ }
+
+ .date_form {
+   font-size: 1.6em;
+   margin-bottom: 20px;
+   border: none;
+   outline: none;
+   border: 1px solid lightgray;
+   border-radius: 5px;
+   padding: 5px;
+   color: lightgray;
+ }
+
+ /* Hotel Management Form */
+ /* Hotel Management Admin */
+
+ .Admin_Render {
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   margin-top: 100px;
+   margin-left: 20px;
+
+
+
+ }
+
+ .Admin_Render_p {
+   display: flex;
+   justify-content: center;
+   background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+   font-size: 1.4em;
+   font-weight: 600;
+
+
+ }
+
+ .Admin_Name {
+   background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 5em;
+   font-weight: 700;
+   height: 30vh;
+ }
+
+ /* Hotel Management Admin */
+ /* Hotel Management nature  */
+ .about_area {
+   padding-top: 80px;
+   padding-bottom: 80px;
+ }
+
+ .Nav_btn_About {
+   font-size: 0.9em;
+   width: 70px;
+   height: 30px;
+   border: none;
+   outline: none;
+   background-color: #fff;
+   border-radius: 20px;
+   color: rgb(10, 164, 25);
+ }
+
+ .Nav_btn_About:hover {
+   font-size: 1em;
+   width: 120px;
+   height: 30px;
+   border: 1px solid rgb(10, 164, 25);
+   background-color: #fff;
+   border-radius: 20px;
+   color: rgb(10, 164, 25);
+ }
+
+ .container {
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+ }
+
+ .row {
+
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px;
+ }
+
+ .mb-20px {
+   margin-bottom: 20px;
+ }
+
+ p {
+   color: #4D4D4D;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ .line-button {
+   color: #919191;
+   font-size: 16px;
+   font-weight: 400;
+   display: inline-block;
+   position: relative;
+   padding-right: 5px;
+   padding-bottom: 2px;
+ }
+
+ .col-xl-7 {
+   position: relative;
+   width: 100%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px px;
+ }
+
+ .d-flex {
+   display: flex !important;
+ }
+
+ .about_area .about_thumb img {
+   width: 100%;
+ }
+
+ img {
+   vertical-align: middle;
+   border-style: none;
+ }
+
+ .about_area .about_thumb .img_2 {
+   margin-top: 40px;
+   margin-left: 10px;
+ }
+
+ .white_area {
+   background-color: white;
+   padding-top: 20px;
+   position: relative;
+   
+
+ }
+ .OverFlow{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: white;
+ }
+ .OverCard{
+  margin-bottom: 25px;
+ }
+
+ /* Hotel Management nature  */
+ /* Hotel Management book_now  */
+ .offers_area {
+   padding-bottom: 100px;
+ }
+
+ .container {
+   max-width: 720px;
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+ }
+
+ .Extrarow {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px;
+ }
+
+ .mb-100 {
+   margin-bottom: 100px;
+ }
+
+ .text-center {
+   text-align: center !important;
+ }
+
+ .section_title span {
+   color: #009DFF;
+   font-size: 14px;
+   font-weight: 400;
+   margin-bottom: 15px;
+   display: block;
+ }
+
+ .col-xl-12 {
+   position: relative;
+   width: 100%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+ }
+
+ .section_title h3 {
+   font-size: 40px;
+   line-height: 42px;
+   color: #1F1F1F;
+
+   background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+
+
+ }
+
+ .Extrarow2 {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px;
+ }
+
+ .col-md-4 {
+   position: relative;
+   width: 100%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+ }
+
+ .offers_area .single_offers .about_thumb {
+   overflow: hidden;
+ }
+
+ .offers_area .single_offers .about_thumb img {
+   width: 100%;
+   transform: scale(1);
+   transition: .3s;
+ }
+
+ img {
+   vertical-align: middle;
+   border-style: none;
+ }
+
+ .cardimage {
+   width: 100%;
+   transform: scale(1);
+   transition: .3s;
+ }
+
+ .cardimage {
+   vertical-align: middle;
+   border-style: none;
+ }
+
+ .offers_area .single_offers h3 {
+   font-weight: 400;
+   color: #1F1F1F;
+   margin-top: 32px;
+ }
+
+ .Cardoffre {
+   font-weight: 400;
+   color: #1F1F1F;
+   margin-top: 32px;
+ }
+
+ ul {
+   margin: 0px;
+   padding: 0px;
+   display: block;
+   list-style-type: disc;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   padding-inline-start: 40px;
+ }
+
+ .offers_area .single_offers ul li {
+   font-size: 16px;
+   color: #4D4D4D;
+   line-height: 28px;
+   position: relative;
+   z-index: 9;
+   padding-left: 23px;
+ }
+
+ li {
+   display: list-item;
+ }
+
+ .offers_area .single_offers a {
+   width: 100%;
+   text-align: center;
+ }
+
+ .offers_area .single_offers .about_thumb img {
+   width: 100%;
+   transform: scale(1);
+   transition: .3s;
+ }
+
+ .book_now {
+   display: inline-block;
+   font-size: 14px;
+   color: #009DFF;
+   border: 1px solid #009DFF;
+   text-transform: capitalize;
+   padding: 10px 25px;
+ }
+
+ .book_now:hover {
+   text-decoration: none;
+   background-color: #009DFF;
+   color: white;
+ }
+
+
+
+ a {
+   text-decoration: none;
+   background-color: transparent;
+   color: #007bff;
+   text-decoration: none;
+ }
+
+ .col-md-4 {
+   -webkit-box-flex: 0;
+   flex: 0 0 33.333333%;
+   max-width: 33.333333%;
+   position: relative;
+   width: 100%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+ }
+
+ /* Hotel Management book_now  */
+ /* Hotel Management Food  */
+ .Nav_btn_Services {
+   font-size: 0.9em;
+   width: 70px;
+   height: 30px;
+   border: none;
+   outline: none;
+   background-color: #fff;
+   border-radius: 20px;
+   color: rgb(17, 30, 209);
+ }
+
+ .Nav_btn_Services:hover {
+   font-size: 1em;
+   width: 120px;
+   height: 30px;
+   border: 1px solid rgb(17, 30, 209);
+   background-color: #fff;
+   border-radius: 20px;
+   color: rgb(17, 30, 209);
+ }
+
+ .row {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px;
+ }
+
+
+
+ .col-lg-7 {
+   position: relative;
+   width: 100%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+ }
+
+ .about_area .about_thumb2 .img_2 {
+   margin-top: 40px;
+   margin-left: 10px;
+ }
+
+ /* Hotel Management Food  */
+ /* Hotel Management Contact  */
+ .container {
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+ }
+
+ .rowcontact {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px;
+ }
+
+ .col-xl-10 {
+   position: relative;
+   width: 100%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+
+ }
+
+ .forQuery .Query_border {
+   border: 1px solid #BABABA;
+   padding: 38px 50px;
+ }
+
+ .align-items-center {
+   -webkit-box-align: center !important;
+   align-items: center !important;
+ }
+
+ .justify-content-center {
+   -webkit-box-pack: center !important;
+   justify-content: center !important;
+
+ }
+
+ .forQuery .Query_border .Query_text {
+   text-align: left;
+ }
+
+ .forQuery .Query_border p {
+   font-size: 18px;
+   color: #1F1F1F;
+   font-weight: 400;
+   margin-bottom: 0;
+ }
+
+ .forQuery .Query_border .phone_num {
+   text-align: right;
+ }
+
+ .forQuery .Query_border .phone_num a {
+   background: #009DFF;
+   color: #fff;
+   padding: 12px 53px;
+   border-radius: 30px;
+   display: inline-block;
+   font-size: 18px;
+   border: 1px solid transparent;
+   text-decoration: none;
+ }
+
+ .forQuery .Query_border .phone_num a:hover {
+   color: #009DFF;
+   background: #fff;
+   border: 1px solid #009DFF;
+
+
+ }
+
+ /* Hotel Management Contact  */
+ /* Hotel Management Footer  */
+ .footer {
+   background: #000;
+ }
+
+ .footer .footer_top {
+   padding-top: 145px;
+   padding-bottom: 129px;
+ }
+
+ .container {
+   max-width: 720px;
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+ }
+
+ .footer .footer_top .footer_widget {
+   margin-bottom: 30px;
+ }
+
+ .footer .footer_top .footer_widget .footer_title {
+   font-size: 22px;
+   font-weight: 400;
+   color: #fff;
+   text-transform: capitalize;
+   margin-bottom: 40px;
+ }
+
+ .footer .footer_top .footer_widget p.footer_text {
+   font-size: 16px;
+   color: #BABABA;
+   margin-bottom: 23px;
+   font-weight: 400;
+   line-height: 28px;
+ }
+
+ .line-button {
+   color: #919191;
+   font-size: 16px;
+   font-weight: 400;
+   display: inline-block;
+   position: relative;
+   padding-right: 5px;
+   padding-bottom: 2px;
+ }
+
+ ul {
+   margin: 0px;
+   padding: 0px;
+ }
+
+ .footer .footer_top .footer_widget ul li {
+   list-style: none;
+ }
+
+ .footer .footer_top .footer_widget ul li a {
+   font-size: 16px;
+   color: #BABABA;
+   line-height: 42px;
+   outline: medium none;
+   text-decoration: none;
+ }
+
+ .footer .footer_top .footer_widget ul li a:hover {
+   color: blue;
+ }
+
+ .footer .footer_top .footer_widget .newsletter_form input {
+   width: 100%;
+   height: 45px;
+   background: #fff;
+   padding-left: 20px;
+   font-size: 16px;
+   color: #000;
+   border: none;
+   position: inherit;
+ }
+
+ .footer .footer_top .footer_widget .newsletter_form button {
+   position: absolute;
+   top: 80;
+   right: 10;
+   height: 6%;
+   border: none;
+   font-size: 14px;
+   color: #fff;
+   background: #009DFF;
+   padding: 10px;
+   padding: 0 22px;
+   cursor: pointer;
+ }
+
+ .footer .footer_top .footer_widget .newsletter_text {
+   font-size: 16px;
+   color: #BABABA;
+ }
+
+
+
+
+
+ /* Hotel Management Footer  */
+ /* Hotel Management Filter And Admin  */
+ /* .filterData{
+margin-top: ;
+} */
+ .filtermain {
+   margin-top: 5px;
+   width: 300px;
+   height: 200px;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+   overflow: hidden;
+   overflow-y: auto;
+ }
+
+ .filtermain::-webkit-scrollbar {
+   display: none;
+ }
+
+ filter.filterdata {
+   width: 100px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   color: black;
+ }
+
+ filter.filterdata a {
+   background-color: lightgray;
+   cursor: pointer;
+ }
+
+ filter.filterdata a p {
+   margin-left: 10px;
+ }
+
+ .alingcenter {
+   text-align: center;
+ }
+
+ .shadow {
+   text-align: center;
+   /* width: 50%; */
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height: 140vh;
+
+
+ }
+
+ /* CSS */
+ .adminadd {
+   font-size: 16px;
+   font-weight: 200;
+   letter-spacing: 1px;
+   padding: 13px 20px 13px;
+   outline: 0;
+   border: 1px solid black;
+   cursor: pointer;
+   position: relative;
+   background-color: rgba(0, 0, 0, 0);
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+
+ .adminadd:after {
+   content: "";
+   background-color: #ffe54c;
+   width: 100%;
+   z-index: -1;
+   position: absolute;
+   height: 100%;
+   top: 7px;
+   left: 7px;
+   transition: 0.2s;
+ }
+
+ .adminadd:hover:after {
+   top: 0px;
+   left: 0px;
+ }
+
+ @media (min-width: 768px) {
+   .adminadd {
+     padding: 13px 50px 13px;
+   }
+ }
+
+ .AdminBtncenter {
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .deleteEdit {
+   width: 100px;
+   margin-left: 10px;
+ }
+
+ .maindelete {
+   display: flex;
+   justify-content: center;
+ }
+
+
+
+ /* CSS */
+ .deleteEdit {
+   align-items: center;
+   appearance: none;
+   background-color: #FCFCFD;
+   border-radius: 4px;
+   border-width: 0;
+   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+   box-sizing: border-box;
+   color: #36395A;
+   cursor: pointer;
+   display: inline-flex;
+   font-family: "JetBrains Mono", monospace;
+   height: 48px;
+   justify-content: center;
+   line-height: 1;
+   list-style: none;
+   overflow: hidden;
+   padding-left: 16px;
+   padding-right: 16px;
+   position: relative;
+   text-align: left;
+   text-decoration: none;
+   transition: box-shadow .15s, transform .15s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   will-change: box-shadow, transform;
+   font-size: 18px;
+ }
+
+ .deleteEdit:focus {
+   box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+ }
+
+ .deleteEdit:hover {
+   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+   transform: translateY(-2px);
+ }
+
+ .deleteEdit:active {
+   box-shadow: #D6D6E7 0 3px 7px inset;
+   transform: translateY(2px);
+ }
+
+ .Edit_form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   flex-direction: column;
+ }
+
+ /* Hotel Management Filter And Admin  */
+
+ /* ================================================ Hotel Management App End ================================================    */
+
+
+ /* Hotel Management Extra Card Sectiom  */
+
+ .ulli {
+   font-size: 16px;
+   color: #4D4D4D;
+   line-height: 28px;
+   position: relative;
+   z-index: 9;
+   padding-left: 23px;
+ }
+
+ .ulli {
+   display: list-item;
+ }
+
+ .offers_area .single_offers a {
+   width: 100%;
+   text-align: center;
+ }
+
+ .offers_area {
+   padding-bottom: 100px;
+ }
+
+ .Extrarow {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px;
+ }
+
+ .book_now {
+   display: inline-block;
+   font-size: 14px;
+   color: #009DFF;
+   border: 1px solid #009DFF;
+   text-transform: capitalize;
+   padding: 10px 25px;
+ }
+
+ .book_now:hover {
+   text-decoration: none;
+   background-color: #009DFF;
+   color: white;
+ }
+.Abso{
+  position: absolute;
+  top: 358px;
+  left: 20px;
+}
+.Abso {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+
+}
+
+.Abso:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.Abso:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.Abso:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.Absol{
+  position: absolute;
+  top: 358px;
+  left: 20px;
+  margin-left: 100px;
+}
+.Absol {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+
+}
+
+.Absol:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.Absol:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.Absol:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.centerloader{
+  display: flex;
+  justify-content: center;
+}
+ /* Hotel Management Extra Card Sectiom  */
